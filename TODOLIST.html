@@ -30,7 +30,7 @@
     temp.setAttribute("class", "list-group-item");
     temp.setAttribute("id", "li"+cnt);
     temp.innerHTML = input.value;
-    temp.innerHTML += "<button style='float: right; vertical-align:20px;' class='btn btn-outline-secondary' type='button' onclick='remove("+cnt+")'>삭제</button>";
+    temp.innerHTML += "<button style='float: right;' class='btn btn-outline-secondary' type='button' onclick='remove("+cnt+")'>삭제</button>";
     list.appendChild(temp);
     cnt++;
     }
